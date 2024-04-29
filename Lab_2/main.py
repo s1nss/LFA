@@ -3,7 +3,7 @@ from finite_automata import *
 nfa = FiniteAutomata(
     states=['0', '1', '2'],
     alphabet=['a', 'b'],
-    transitions={
+    transitions={ 
         ('0', 'a'): ['0'],
         ('1', 'a'): ['1'],
         ('2', 'a'): ['2'],
